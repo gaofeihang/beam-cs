@@ -8,15 +8,13 @@ Beam common framework needs to be installed.
 
 See https://github.com/gaofeihang/beam-framework
 
-### Usage
-
-#### Installation
+### Installation
 
     git clone https://github.com/gaofeihang/beam-cs.git
     cd beam-cs
     mvn clean install -Dmaven.test.skip
 
-#### Maven Dependency
+### Maven Dependency
 
     <dependency>
         <groupId>net.beamlight</groupId>
@@ -24,7 +22,7 @@ See https://github.com/gaofeihang/beam-framework
         <version>1.0.0-SNAPSHOT</version>
     </dependency>
     
-#### API
+### API
 
 	public class ConfigClientExample {
 	    
@@ -58,7 +56,7 @@ See https://github.com/gaofeihang/beam-framework
 	    }
 	}
 
-#### ZooKeeper Connection
+### ZooKeeper Connection
 
 Add beam-cs.properties to your classpath, e.g.
 
